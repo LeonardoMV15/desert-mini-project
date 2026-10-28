@@ -7,7 +7,7 @@ function NavBar() {
     <nav className=" navBar">
       <div className="NavBarLogo">
       <img src={logo} alt="" />
-      <h1>Sweet Book</h1>
+      <h1>SWEET BOOK</h1>
       </div>
 
       <div className="NavBarLinks">

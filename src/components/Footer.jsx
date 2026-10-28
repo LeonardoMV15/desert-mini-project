@@ -1,28 +1,24 @@
-function Footer (){
+import "./Footer.css";
 
-return(
-<div>
-    <div>
-    <a href="">HOME</a>
-    <a href="">RECIPES</a>
-    <a href="">ABOUT</a>
-    </div>
-    <div>
+function Footer() {
+  return (
+    <footer className="footer">
 
-    <h1>SWEET BOOK</h1>
-    </div>
-    <div>
-    <p>© 2026 Sweet Book</p>
-    <p>Baked with love ♡</p>
-    </div>
+      <div className="footer-links">
+        <a href="/">HOME</a>
+        <a href="/recipes">RECIPES</a>
+        <a href="/about">ABOUT</a>
+      </div>
 
+      <h1 className="footer-title">SWEET BOOK</h1>
 
-</div>
+      <div className="footer-bottom">
+        <p>© {new Date().getFullYear()} SWEET BOOK</p>
+        <p>BAKED WITH LOVE ♡</p>
+      </div>
 
-)
-
-
-
+    </footer>
+  );
 }
 
-export default Footer
+export default Footer;

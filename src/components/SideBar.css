@@ -1,32 +1,35 @@
-sidebar {
+.sidebar {
   width: 230px;
   min-width: 230px;
   background-color: #fff9d6;
-  padding: 35px 25px;
-  border-right: 1px solid #941b20;
-  box-sizing: border-box;
+  padding: 40px 25px;
+  border-right: 2px solid #941b20;
+  display: flex;
+  flex-direction: column;
 }
 
 .sidebar-title {
- font-size: 14px;
- letter-spacing: 3px;
+  font-family: "Anton", sans-serif;
+  font-size: 20px;
+  letter-spacing: 2px;
   color: #941b20;
- margin-bottom: 35px;
+  margin-bottom: 40px;
 }
 
 .sidebar-menu {
- display: flex;
- flex-direction: column;
- gap: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
 
 .sidebar-menu a,
 .sidebar-bottom a {
- text-decoration: none;
- color: #941b20;
- font-size: 15px;
- font-weight: 600;
- transition: 0.3s;
+  color: #941b20;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: 0.3s;
 }
 
 .sidebar-menu a:hover,
@@ -36,8 +39,16 @@ sidebar {
 }
 
 .sidebar-bottom {
- margin-top: 60px;
- padding-top: 25px;
- border-top: 1px solid #941b20;
+  margin-top: auto;
+  padding-top: 30px;
+  border-top: 1px solid #941b20;
 }
 
+@media (max-width: 768px) {
+  .sidebar {
+    width: 100%;
+    min-width: 0;
+    border-right: none;
+    border-bottom: 2px solid #941b20;
+  }
+}

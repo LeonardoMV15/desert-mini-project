@@ -12,7 +12,7 @@ function SideBar() {
                 <a href="/add-recipe">+ Add Recipe</a>
             </nav>
             <div className="sidebar-bottom">
-                <a href="/about">About Us :arrow_upper_right:</a>
+                <a href="/about">ABOUT US ↗</a>
             </div>
         </aside>
 

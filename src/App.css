@@ -1,0 +1,25 @@
+.page-layout {
+  display: flex;
+  width: 100%;
+  min-height: 70vh;
+}
+
+.main-content {
+  flex: 1;
+  padding: 60px;
+  background-color: #fff9d6;
+}
+
+.main-content h1 {
+  font-family: "Anton", sans-serif;
+  font-size: 65px;
+  color: #941b20;
+  margin-bottom: 20px;
+}
+
+.main-content p {
+  font-size: 18px;
+  line-height: 1.6;
+  max-width: 500px;
+}
+

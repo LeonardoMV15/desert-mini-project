@@ -22,12 +22,15 @@ object-fit: contain;
 }
 
 .NavBarLogo h1 {
-font-family: Georgia, serif;
-font-size: 32px;
-font-weight: bold;
-color: #941B20;
-margin: 0;
-letter-spacing: 1px;
+  font-family: "Anton", sans-serif;
+  font-size: 38px;
+  font-weight: 400;
+  color: #941B20;
+  margin: 0;
+  letter-spacing: 1px;
+  -webkit-text-stroke: 1.5px #941B20;
+  paint-order: stroke fill;
+  line-height: 1;
 }
 
 .NavBarLinks {

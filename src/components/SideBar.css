@@ -3,7 +3,7 @@
   min-width: 230px;
   background-color: #fff9d6;
   padding: 40px 25px;
-  border-right: 2px solid #941b20;
+  border-right: 2px solid #6b2637;
   display: flex;
   flex-direction: column;
 }
@@ -12,7 +12,7 @@
   font-family: "Anton", sans-serif;
   font-size: 20px;
   letter-spacing: 2px;
-  color: #941b20;
+  color: #6b2637;
   margin-bottom: 40px;
 }
 
@@ -24,7 +24,7 @@
 
 .sidebar-menu a,
 .sidebar-bottom a {
-  color: #941b20;
+  color: #6b2637;
   font-size: 14px;
   font-weight: bold;
   text-transform: uppercase;
@@ -41,7 +41,7 @@
 .sidebar-bottom {
   margin-top: auto;
   padding-top: 30px;
-  border-top: 1px solid #941b20;
+  border-top: 1px solid #6b2637;
 }
 
 @media (max-width: 768px) {
@@ -49,6 +49,6 @@
     width: 100%;
     min-width: 0;
     border-right: none;
-    border-bottom: 2px solid #941b20;
+    border-bottom: 2px solid #6b2637;
   }
 }

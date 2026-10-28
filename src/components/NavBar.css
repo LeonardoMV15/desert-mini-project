@@ -4,7 +4,7 @@ justify-content: space-between;
 align-items: center;
 background-color: #FFF9D6;
 padding: 15px 50px;
-border-bottom: 2px solid #941B20;
+border-bottom: 2px solid #6b2637;
 width: 100%;
 box-sizing: border-box;
 }
@@ -25,10 +25,10 @@ object-fit: contain;
   font-family: "Anton", sans-serif;
   font-size: 38px;
   font-weight: 400;
-  color: #941B20;
+  color: #6b2637;
   margin: 0;
   letter-spacing: 1px;
-  -webkit-text-stroke: 1.5px #941B20;
+  -webkit-text-stroke: 1.5px #6b2637;
   paint-order: stroke fill;
   line-height: 1;
 }
@@ -41,7 +41,7 @@ gap: 40px;
 
 .NavBarLinks a {
 text-decoration: none;
-color: #941B20;
+color: #6b2637;
 font-family: Arial, sans-serif;
 font-size: 15px;
 font-weight: 600;

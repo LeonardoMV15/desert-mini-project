@@ -3,6 +3,9 @@ import "./App.css";
 import NavBar from "./components/NavBar";
 import SideBar from "./components/SideBar";
 import Footer from "./components/Footer";
+import DessertList from "./components/DessertList";
+
+
 
 function App() {
   return (
@@ -22,7 +25,12 @@ function App() {
         </main>
       </div>
 
+      <DessertList/>
       <Footer />
+
+
+      
+      
     </>
   );
 }

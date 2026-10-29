@@ -11,9 +11,6 @@ function NavBar() {
       </div>
 
       <div className="NavBarLinks">
-        <a href="">Home</a>
-        <a href="">Recipes</a>
-        <a href="">About</a>
       </div>
     </nav>
   );

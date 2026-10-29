@@ -3,8 +3,17 @@ import "./App.css";
 import NavBar from "./components/NavBar";
 import SideBar from "./components/SideBar";
 import Footer from "./components/Footer";
-import DessertList from "./components/DessertList";
+import RecipesList from "./pages/RecipesList.jsx";
+import Home from "./pages/Home";
+import AboutPage from "./pages/AboutPage";
+import RecipeDetail from "./pages/RecipeDetail";
 
+
+
+
+import { Link, Routes, Route  } from "react-router-dom"
+
+import NotFound from "./pages/NotFound.jsx"
 
 
 function App() {
@@ -16,18 +25,25 @@ function App() {
         <SideBar />
 
         <main className="main-content">
-          <h1>WELCOME TO SWEET BOOK</h1>
+      
+           <Routes>
 
-          <p>
-            Your favorite place to discover and share
-            delicious homemade desserts.
-          </p>
+          <Route path="/" element={ <Home /> } />
+          <Route path="/recipes" element={ <RecipesList /> } />
+          <Route path="/about" element={ <AboutPage /> } />
+          <Route path="/recipes/:recipeId" element={ <RecipeDetail /> } />
+
+         
+
+          <Route path="*" element={ <NotFound /> }/>
+
+        </Routes>
+
         </main>
       </div>
+      
 
-      <DessertList/>
       <Footer />
-
 
       
       

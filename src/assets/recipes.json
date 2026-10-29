@@ -1,0 +1,555 @@
+
+
+[
+  {
+    "id": 1,
+    "name": "Chocolate Brownie",
+    "image": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c",
+    "category": "Chocolate",
+    "difficulty": "Easy",
+    "prepTime": 30,
+    "isFavorite": true,
+    "ingredients": [
+      "200g dark chocolate",
+      "150g butter",
+      "180g sugar",
+      "3 eggs",
+      "100g all-purpose flour",
+      "1 pinch of salt"
+    ],
+    "instructions": [
+      "Preheat the oven to 180°C.",
+      "Melt the chocolate and butter together.",
+      "Whisk the eggs and sugar until combined.",
+      "Add the melted chocolate, flour and salt.",
+      "Pour into a lined baking pan.",
+      "Bake for 25 minutes and let cool before slicing."
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Strawberry Cheesecake",
+    "image": "https://images.unsplash.com/photo-1533134242443-d4fd215305ad",
+    "category": "Cakes",
+    "difficulty": "Medium",
+    "prepTime": 60,
+    "isFavorite": false,
+    "ingredients": [
+      "200g digestive biscuits",
+      "90g melted butter",
+      "500g cream cheese",
+      "120g sugar",
+      "200ml whipping cream",
+      "10g gelatin powder",
+      "200g fresh strawberries"
+    ],
+    "instructions": [
+      "Crush the biscuits and mix with melted butter.",
+      "Press into a cake tin and refrigerate.",
+      "Dissolve the gelatin according to its package instructions.",
+      "Beat the cream cheese and sugar together.",
+      "Whip the cream and fold it into the cheese mixture.",
+      "Mix in the dissolved gelatin and pour over the biscuit base.",
+      "Refrigerate for at least 6 hours.",
+      "Decorate with sliced strawberries."
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Chocolate Chip Cookies",
+    "image": "https://images.unsplash.com/photo-1499636136210-6f4ee915583e",
+    "category": "Cookies",
+    "difficulty": "Easy",
+    "prepTime": 25,
+    "isFavorite": true,
+    "ingredients": [
+      "250g all-purpose flour",
+      "150g butter",
+      "120g brown sugar",
+      "80g white sugar",
+      "1 egg",
+      "150g chocolate chips",
+      "1 tsp baking soda",
+      "1 tsp vanilla extract"
+    ],
+    "instructions": [
+      "Preheat the oven to 180°C.",
+      "Cream the butter and sugars together.",
+      "Add the egg and vanilla extract.",
+      "Mix in the flour and baking soda.",
+      "Fold in the chocolate chips.",
+      "Shape into small balls.",
+      "Bake for 10 to 12 minutes."
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Classic Tiramisu",
+    "image": "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9",
+    "category": "Desserts",
+    "difficulty": "Medium",
+    "prepTime": 45,
+    "isFavorite": false,
+    "ingredients": [
+      "250g mascarpone cheese",
+      "3 pasteurized eggs",
+      "80g sugar",
+      "200g ladyfinger biscuits",
+      "250ml strong coffee",
+      "2 tbsp cocoa powder"
+    ],
+    "instructions": [
+      "Prepare the coffee and let it cool.",
+      "Separate the pasteurized eggs.",
+      "Beat the yolks with sugar and mascarpone.",
+      "Whip the egg whites and fold them in.",
+      "Dip the ladyfingers briefly into the coffee.",
+      "Layer the biscuits and mascarpone cream.",
+      "Refrigerate for at least 4 hours.",
+      "Dust with cocoa powder."
+    ]
+  },
+  {
+    "id": 5,
+    "name": "French Macarons",
+    "image": "https://images.unsplash.com/photo-1569864358642-9d1684040f43",
+    "category": "Pastries",
+    "difficulty": "Hard",
+    "prepTime": 120,
+    "isFavorite": true,
+    "ingredients": [
+      "100g almond flour",
+      "100g powdered sugar",
+      "75g egg whites",
+      "75g granulated sugar",
+      "Food coloring (optional)",
+      "150g chocolate ganache"
+    ],
+    "instructions": [
+      "Sift the almond flour and powdered sugar.",
+      "Whip the egg whites while adding sugar.",
+      "Fold in the dry ingredients.",
+      "Pipe small circles onto a baking tray.",
+      "Let rest until a skin forms.",
+      "Bake at 150°C for approximately 14 minutes.",
+      "Cool and sandwich with chocolate ganache."
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Red Velvet Cake",
+    "image": "https://images.unsplash.com/photo-1586788680434-30d324b2d46f",
+    "category": "Cakes",
+    "difficulty": "Medium",
+    "prepTime": 90,
+    "isFavorite": false,
+    "ingredients": [
+      "250g all-purpose flour",
+      "200g sugar",
+      "120ml vegetable oil",
+      "2 eggs",
+      "240ml buttermilk",
+      "15g cocoa powder",
+      "1 tsp baking soda",
+      "1 tsp vinegar",
+      "Red food coloring",
+      "300g cream cheese frosting"
+    ],
+    "instructions": [
+      "Preheat the oven to 175°C.",
+      "Mix the dry ingredients.",
+      "Whisk the eggs, sugar, oil and buttermilk.",
+      "Add vinegar and red food coloring.",
+      "Combine wet and dry ingredients.",
+      "Bake for 25 to 30 minutes.",
+      "Cool and decorate with cream cheese frosting."
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Blueberry Muffins",
+    "image": "https://images.unsplash.com/photo-1607958996333-41aef7caefaa",
+    "category": "Muffins",
+    "difficulty": "Easy",
+    "prepTime": 35,
+    "isFavorite": false,
+    "ingredients": [
+      "250g all-purpose flour",
+      "120g sugar",
+      "2 eggs",
+      "120ml milk",
+      "100ml vegetable oil",
+      "150g blueberries",
+      "2 tsp baking powder",
+      "1 tsp vanilla extract"
+    ],
+    "instructions": [
+      "Preheat the oven to 190°C.",
+      "Mix flour, sugar and baking powder.",
+      "Whisk eggs, milk, oil and vanilla.",
+      "Combine wet and dry ingredients.",
+      "Fold in blueberries.",
+      "Divide into muffin cases.",
+      "Bake for 18 to 22 minutes."
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Classic Apple Pie",
+    "image": "https://images.unsplash.com/photo-1535920527002-b35e96722eb9",
+    "category": "Pies",
+    "difficulty": "Medium",
+    "prepTime": 75,
+    "isFavorite": true,
+    "ingredients": [
+      "2 sheets of pie pastry",
+      "5 apples",
+      "100g brown sugar",
+      "30g butter",
+      "2 tbsp flour",
+      "1 tsp cinnamon",
+      "1 tbsp lemon juice",
+      "1 egg"
+    ],
+    "instructions": [
+      "Preheat the oven to 190°C.",
+      "Peel and slice the apples.",
+      "Mix apples with sugar, flour, cinnamon and lemon juice.",
+      "Line a pie dish with pastry.",
+      "Add the filling and butter.",
+      "Cover with pastry and cut steam vents.",
+      "Brush with beaten egg.",
+      "Bake for 45 to 55 minutes."
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Chocolate Donuts",
+    "image": "https://images.unsplash.com/photo-1551024506-0bccd828d307",
+    "category": "Donuts",
+    "difficulty": "Medium",
+    "prepTime": 60,
+    "isFavorite": false,
+    "ingredients": [
+      "300g all-purpose flour",
+      "150ml warm milk",
+      "50g sugar",
+      "40g butter",
+      "1 egg",
+      "7g dry yeast",
+      "150g dark chocolate",
+      "50ml whipping cream"
+    ],
+    "instructions": [
+      "Mix flour, sugar and yeast.",
+      "Add milk, egg and butter.",
+      "Knead and let rise until doubled.",
+      "Roll out and cut donut shapes.",
+      "Let rise again.",
+      "Bake at 180°C for 12 to 15 minutes.",
+      "Melt chocolate with cream.",
+      "Dip the cooled donuts into the glaze."
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Vanilla Cupcakes",
+    "image": "https://images.unsplash.com/photo-1576618148400-f54bed99fcfd",
+    "category": "Cupcakes",
+    "difficulty": "Easy",
+    "prepTime": 40,
+    "isFavorite": true,
+    "ingredients": [
+      "180g all-purpose flour",
+      "150g sugar",
+      "120g butter",
+      "2 eggs",
+      "120ml milk",
+      "2 tsp baking powder",
+      "2 tsp vanilla extract",
+      "200g vanilla buttercream"
+    ],
+    "instructions": [
+      "Preheat the oven to 180°C.",
+      "Cream butter and sugar.",
+      "Add eggs and vanilla.",
+      "Mix in flour, baking powder and milk.",
+      "Divide into cupcake cases.",
+      "Bake for 18 to 20 minutes.",
+      "Cool and decorate with buttercream."
+    ]
+  },
+    {
+    "id": 11,
+    "name": "Lemon Tart",
+    "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777",
+    "category": "Tarts",
+    "difficulty": "Medium",
+    "prepTime": 70,
+    "isFavorite": false,
+    "ingredients": [
+      "1 sheet of shortcrust pastry",
+      "3 eggs",
+      "150g sugar",
+      "120ml lemon juice",
+      "Zest of 2 lemons",
+      "100g butter"
+    ],
+    "instructions": [
+      "Preheat the oven to 180°C.",
+      "Line a tart tin with pastry.",
+      "Blind bake for 15 to 20 minutes.",
+      "Whisk eggs, sugar, lemon juice and zest.",
+      "Cook gently until thickened.",
+      "Remove from heat and stir in butter.",
+      "Pour into the cooled pastry shell.",
+      "Refrigerate until set."
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Cinnamon Rolls",
+    "image": "https://images.unsplash.com/photo-1509365465985-25d11c17e812",
+    "category": "Pastries",
+    "difficulty": "Medium",
+    "prepTime": 100,
+    "isFavorite": true,
+    "ingredients": [
+      "400g all-purpose flour",
+      "200ml warm milk",
+      "60g sugar",
+      "60g butter",
+      "1 egg",
+      "7g dry yeast",
+      "80g brown sugar",
+      "2 tbsp cinnamon",
+      "150g cream cheese icing"
+    ],
+    "instructions": [
+      "Mix flour, yeast, sugar, milk, egg and butter.",
+      "Knead and let rise until doubled.",
+      "Roll into a rectangle.",
+      "Spread with butter, brown sugar and cinnamon.",
+      "Roll and cut into slices.",
+      "Let rise for 30 minutes.",
+      "Bake at 180°C for 20 to 25 minutes.",
+      "Drizzle with cream cheese icing."
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Panna Cotta",
+    "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777",
+    "category": "Desserts",
+    "difficulty": "Easy",
+    "prepTime": 20,
+    "isFavorite": false,
+    "ingredients": [
+      "400ml whipping cream",
+      "100ml milk",
+      "80g sugar",
+      "1 tsp vanilla extract",
+      "8g gelatin powder",
+      "150g mixed berries"
+    ],
+    "instructions": [
+      "Hydrate gelatin according to its package instructions.",
+      "Heat cream, milk, sugar and vanilla without boiling.",
+      "Remove from heat and dissolve gelatin.",
+      "Pour into serving glasses.",
+      "Refrigerate for at least 4 hours.",
+      "Top with berries."
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Chocolate Mousse",
+    "image": "https://images.unsplash.com/photo-1590080875852-ba44f83ff2db?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",
+    "category": "Chocolate",
+    "difficulty": "Easy",
+    "prepTime": 25,
+    "isFavorite": true,
+    "ingredients": [
+      "200g dark chocolate",
+      "300ml whipping cream",
+      "30g sugar",
+      "1 tsp vanilla extract"
+    ],
+    "instructions": [
+      "Melt the chocolate and cool until lukewarm.",
+      "Whip the cream with sugar and vanilla.",
+      "Fold some cream into the chocolate.",
+      "Gently fold in the remaining cream.",
+      "Divide into serving glasses.",
+      "Refrigerate for at least 2 hours."
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Carrot Cake",
+    "image": "https://images.unsplash.com/photo-1621303837174-89787a7d4729",
+    "category": "Cakes",
+    "difficulty": "Medium",
+    "prepTime": 80,
+    "isFavorite": false,
+    "ingredients": [
+      "250g grated carrots",
+      "200g all-purpose flour",
+      "150g brown sugar",
+      "120ml vegetable oil",
+      "3 eggs",
+      "2 tsp cinnamon",
+      "2 tsp baking powder",
+      "80g chopped walnuts",
+      "250g cream cheese frosting"
+    ],
+    "instructions": [
+      "Preheat the oven to 180°C.",
+      "Whisk eggs, sugar and oil.",
+      "Add flour, baking powder and cinnamon.",
+      "Fold in carrots and walnuts.",
+      "Pour into a cake tin.",
+      "Bake for 35 to 45 minutes.",
+      "Cool and add cream cheese frosting."
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Banana Bread",
+    "image": "https://images.unsplash.com/photo-1605286978633-2dec93ff88a2",
+    "category": "Breads",
+    "difficulty": "Easy",
+    "prepTime": 65,
+    "isFavorite": false,
+    "ingredients": [
+      "3 ripe bananas",
+      "200g all-purpose flour",
+      "100g brown sugar",
+      "80g melted butter",
+      "2 eggs",
+      "1 tsp baking soda",
+      "1 tsp vanilla extract",
+      "1 pinch of salt"
+    ],
+    "instructions": [
+      "Preheat the oven to 175°C.",
+      "Mash the bananas.",
+      "Mix with eggs, butter, sugar and vanilla.",
+      "Fold in flour, baking soda and salt.",
+      "Pour into a loaf tin.",
+      "Bake for 45 to 55 minutes.",
+      "Cool before slicing."
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Creme Brulee",
+    "image": "https://plus.unsplash.com/premium_photo-1713840472256-44579289f607?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",
+    "category": "Desserts",
+    "difficulty": "Hard",
+    "prepTime": 75,
+    "isFavorite": true,
+    "ingredients": [
+      "500ml whipping cream",
+      "5 egg yolks",
+      "80g sugar",
+      "1 vanilla bean",
+      "50g sugar for caramelizing"
+    ],
+    "instructions": [
+      "Preheat the oven to 150°C.",
+      "Heat cream with vanilla.",
+      "Whisk egg yolks and sugar.",
+      "Slowly combine with the warm cream.",
+      "Strain into ramekins.",
+      "Bake in a water bath for 30 to 40 minutes.",
+      "Cool and refrigerate for at least 4 hours.",
+      "Sprinkle with sugar and caramelize."
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Strawberry Shortcake",
+    "image": "https://images.unsplash.com/photo-1464305795204-6f5bbfc7fb81",
+    "category": "Cakes",
+    "difficulty": "Medium",
+    "prepTime": 60,
+    "isFavorite": false,
+    "ingredients": [
+      "200g all-purpose flour",
+      "60g sugar",
+      "80g cold butter",
+      "120ml milk",
+      "2 tsp baking powder",
+      "300g fresh strawberries",
+      "250ml whipping cream",
+      "2 tbsp powdered sugar"
+    ],
+    "instructions": [
+      "Preheat the oven to 200°C.",
+      "Mix flour, sugar and baking powder.",
+      "Rub in butter and add milk.",
+      "Shape into small shortcakes.",
+      "Bake for 15 to 18 minutes.",
+      "Slice strawberries.",
+      "Whip cream with powdered sugar.",
+      "Fill the cooled shortcakes with cream and strawberries."
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Homemade Pancakes",
+    "image": "https://images.unsplash.com/photo-1528207776546-365bb710ee93",
+    "category": "Breakfast",
+    "difficulty": "Easy",
+    "prepTime": 20,
+    "isFavorite": true,
+    "ingredients": [
+      "200g all-purpose flour",
+      "250ml milk",
+      "2 eggs",
+      "30g melted butter",
+      "2 tbsp sugar",
+      "2 tsp baking powder",
+      "1 tsp vanilla extract",
+      "Maple syrup"
+    ],
+    "instructions": [
+      "Mix flour, sugar and baking powder.",
+      "Whisk milk, eggs, butter and vanilla.",
+      "Combine wet and dry ingredients.",
+      "Heat a lightly greased pan.",
+      "Pour small portions of batter.",
+      "Cook until bubbles appear, then flip.",
+      "Serve warm with maple syrup."
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Chocolate Lava Cake",
+    "image": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c",
+    "category": "Chocolate",
+    "difficulty": "Medium",
+    "prepTime": 35,
+    "isFavorite": false,
+    "ingredients": [
+      "150g dark chocolate",
+      "120g butter",
+      "2 eggs",
+      "2 egg yolks",
+      "80g sugar",
+      "50g all-purpose flour",
+      "1 pinch of salt"
+    ],
+    "instructions": [
+      "Preheat the oven to 200°C.",
+      "Grease four ramekins.",
+      "Melt chocolate and butter.",
+      "Whisk eggs, egg yolks and sugar.",
+      "Mix in chocolate, flour and salt.",
+      "Divide between ramekins.",
+      "Bake for 10 to 12 minutes until the edges are set.",
+      "Rest briefly and serve warm."
+    ]
+  }
+]

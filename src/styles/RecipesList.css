@@ -1,4 +1,4 @@
-.desserts-section {
+.recipes-section {
   background-color: #fff9d6;
   padding: 60px 40px;
   min-height: 100vh;
@@ -7,12 +7,12 @@
 
 /* SECTION HEADER */
 
-.desserts-heading {
+.recipes-heading {
   text-align: center;
   margin-bottom: 45px;
 }
 
-.desserts-heading > span {
+.recipes-heading > span {
   font-family: Arial, sans-serif;
   font-size: 11px;
   font-weight: 600;
@@ -20,14 +20,14 @@
   color: #a67c52;
 }
 
-.desserts-heading h2 {
+.recipes-heading h2 {
   font-size: 48px;
   font-weight: 400;
   color: #6b2637;
   margin: 15px 0;
 }
 
-.desserts-heading p {
+.recipes-heading p {
   font-size: 16px;
   font-style: italic;
   color: #8b7770;
@@ -35,7 +35,7 @@
 
 /* GRID */
 
-.desserts-grid {
+.recipes-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 30px;
@@ -43,9 +43,9 @@
   margin: 0 auto;
 }
 
-/* DESSERT CARD */
+/* RECIPE CARD */
 
-.dessert-card {
+.recipe-card {
   background-color: #fffdf9;
   border: 1px solid #eadfd4;
   border-radius: 14px;
@@ -54,20 +54,20 @@
   box-shadow: 0 4px 15px rgba(80, 40, 40, 0.05);
 }
 
-.dessert-card:hover {
+.recipe-card:hover {
   transform: translateY(-6px);
   box-shadow: 0 12px 30px rgba(80, 40, 40, 0.12);
 }
 
 /* IMAGE */
 
-.dessert-image {
+.recipe-image {
   width: 100%;
   height: 230px;
   overflow: hidden;
 }
 
-.dessert-image img {
+.recipe-image img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -75,24 +75,24 @@
   transition: transform 0.4s ease;
 }
 
-.dessert-card:hover .dessert-image img {
+.recipe-card:hover .recipe-image img {
   transform: scale(1.05);
 }
 
 /* CARD CONTENT */
 
-.dessert-info {
+.recipe-info {
   padding: 24px;
 }
 
-.dessert-header {
+.recipe-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 12px;
 }
 
-.dessert-category {
+.recipe-category {
   font-family: Arial, sans-serif;
   font-size: 10px;
   font-weight: 700;
@@ -101,12 +101,12 @@
   color: #a67c52;
 }
 
-.dessert-favorite {
+.recipe-favorite {
   color: #8b3045;
   font-size: 22px;
 }
 
-.dessert-info h3 {
+.recipe-info h3 {
   font-size: 24px;
   font-weight: 400;
   color: #532432;
@@ -116,7 +116,7 @@
 
 /* DETAILS */
 
-.dessert-details {
+.recipe-meta {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -154,7 +154,7 @@
 
 /* REMOVE BUTTON */
 
-.dessert-remove {
+.recipe-remove {
   width: 100%;
   margin-top: 20px;
   padding: 12px;
@@ -170,7 +170,7 @@
   transition: all 0.3s ease;
 }
 
-.dessert-remove:hover {
+.recipe-remove:hover {
   background-color: #8b3045;
   color: white;
 }

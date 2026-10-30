@@ -7,16 +7,18 @@ import RecipesList from "./pages/RecipesList.jsx";
 import Home from "./pages/Home";
 import AboutPage from "./pages/AboutPage";
 import RecipeDetail from "./pages/RecipeDetail";
+import AddRecipe from "./pages/AddRecipes.jsx"; 
+import recipesData from "./assets/recipes.json";
 
-
-
-
-import { Link, Routes, Route  } from "react-router-dom"
+import {  Routes, Route  } from "react-router-dom"
 
 import NotFound from "./pages/NotFound.jsx"
+import { useState } from "react";
 
 
 function App() {
+  const [recipe, setRecipe] = useState(recipesData);
+  
   return (
     <>
       <NavBar />
@@ -29,9 +31,11 @@ function App() {
            <Routes>
 
           <Route path="/" element={ <Home /> } />
-          <Route path="/recipes" element={ <RecipesList /> } />
+          <Route path="/recipes" element={ <RecipesList recipe={recipe} /> } />
           <Route path="/about" element={ <AboutPage /> } />
           <Route path="/recipes/:recipeId" element={ <RecipeDetail /> } />
+          <Route path="/add-recipe" element={ <AddRecipe recipes={recipe} setRecipes={setRecipe}/> } />
+          
 
          
 

@@ -1,15 +1,15 @@
-import { useState } from "react"
-import dataRecipes from "../assets/recipes.json"
+// import { useState } from "react"
+// import dataRecipes from "../assets/recipes.json"
 import RecipesCard from "../components/RecipesCard"
 import "../styles/RecipesList.css";
 
-function RecipesList(){
-    const [recipes, setRecipes] = useState(dataRecipes)
+function RecipesList(props){
+    //const [recipes, setRecipes] = useState(dataRecipes)
 
     const handleRemove = (index) =>{
-        const stateClone = [...recipes]
+        const stateClone = [...props.allRecipes]
         stateClone.splice(index, 1)
-        setRecipes(stateClone)
+        props.setAllRecipes(stateClone)
     }
   
     
@@ -23,13 +23,13 @@ function RecipesList(){
     </div>
 
     <div className="recipes-grid">
-      {recipes.map((recipe, index) => {
+      {props.allRecipes.map((recipe) => {
         return (
           <RecipesCard
             key={recipe.id}
             handleRemove={handleRemove}
             recipe={recipe}
-            index={index}
+            
           />
         );
       })}

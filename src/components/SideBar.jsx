@@ -1,4 +1,5 @@
 import  "./SideBar.css"
+import { Link } from "react-router-dom"
 
 function SideBar() {
 
@@ -7,9 +8,9 @@ function SideBar() {
         <aside className="sidebar">
             <h2 className="sidebar-title">THE MENU</h2>
             <nav className="sidebar-menu">
-                <a href="/">⌂ Home</a>
-                <a href="/recipes">♡ All Recipes</a>
-                <a href="/add-recipe">+ Add Recipe</a>
+                <Link to="/">⌂ Home</Link>
+                <Link to="/recipes">♡ All Recipes</Link>
+                <Link to="/add-recipe">+ Add Recipe</Link>
             </nav>
             <div className="sidebar-bottom">
                 <a href="/about">ABOUT US ↗</a>

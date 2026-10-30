@@ -1,7 +1,5 @@
 import { useState } from "react";
 
-import RecipeCard from "../components/RecipesCard";
-
 function AddRecipe(props) {
   const [name, setName] = useState("");
   const [image, setImage] = useState("");
@@ -22,12 +20,12 @@ function AddRecipe(props) {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    //console.log("bien")
-    const lastRecipe = props.recipes[props.recipes.length - 1];
+    
+    const lastRecipe = props.allRecipes[props.allRecipes.length - 1];
     const newId = lastRecipe ? Number(lastRecipe.id) + 1 : 1;
 
     const newRecipe = {
-      id: newId, 
+      id: newId,
       name: name,
       image: image,
       category: category,
@@ -36,8 +34,11 @@ function AddRecipe(props) {
       ingredients: ingredients,
       instructions: instructions,
     };
-    //console.log(newRecipe)
-    props.setRecipes([...props.recipes, newRecipe]);
+    
+    
+    props.setAllRecipes([...props.allRecipes, newRecipe]);
+    
+    
   };
 
   return (
@@ -109,10 +110,6 @@ function AddRecipe(props) {
 
         <button type="submit">Add Recipe ♡</button>
       </form>
-      {props.recipe &&
-        props.recipe.map((recipe) => {
-          return <RecipeCard key={recipe.name} recipe={recipe} />;
-        })}
     </div>
   );
 }

@@ -17,7 +17,7 @@ import { useState } from "react";
 
 
 function App() {
-  const [recipe, setRecipe] = useState(recipesData);
+  const [allRecipes, setAllRecipes] = useState(recipesData);
   
   return (
     <>
@@ -31,10 +31,10 @@ function App() {
            <Routes>
 
           <Route path="/" element={ <Home /> } />
-          <Route path="/recipes" element={ <RecipesList recipe={recipe} /> } />
+          <Route path="/recipes" element={ <RecipesList allRecipes={allRecipes} /> } />
           <Route path="/about" element={ <AboutPage /> } />
           <Route path="/recipes/:recipeId" element={ <RecipeDetail /> } />
-          <Route path="/add-recipe" element={ <AddRecipe recipes={recipe} setRecipes={setRecipe}/> } />
+          <Route path="/add-recipe" element={ <AddRecipe allRecipes={allRecipes} setAllRecipes={setAllRecipes}/> } />
           
 
          

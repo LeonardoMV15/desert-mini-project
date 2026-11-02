@@ -31,7 +31,7 @@ function App() {
            <Routes>
 
           <Route path="/" element={ <Home /> } />
-          <Route path="/recipes" element={ <RecipesList allRecipes={allRecipes} /> } />
+          <Route path="/recipes" element={ <RecipesList allRecipes={allRecipes} setAllRecipes={setAllRecipes} /> } />
           <Route path="/about" element={ <AboutPage /> } />
           <Route path="/recipes/:recipeId" element={ <RecipeDetail /> } />
           <Route path="/add-recipe" element={ <AddRecipe allRecipes={allRecipes} setAllRecipes={setAllRecipes}/> } />

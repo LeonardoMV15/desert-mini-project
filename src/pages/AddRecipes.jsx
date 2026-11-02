@@ -1,5 +1,5 @@
 import { useState } from "react";
-
+import {useNavigate} from "react-router-dom"
 function AddRecipe(props) {
   const [name, setName] = useState("");
   const [image, setImage] = useState("");
@@ -8,6 +8,9 @@ function AddRecipe(props) {
   const [difficulty, setDifficulty] = useState("");
   const [ingredients, setIngredients] = useState("");
   const [instructions, setInstructions] = useState("");
+
+
+  const navigate = useNavigate()
 
   //para que se guarden los cambios dentro del input
   const handleName = (e) => setName(e.target.value);
@@ -38,8 +41,15 @@ function AddRecipe(props) {
     
     props.setAllRecipes([...props.allRecipes, newRecipe]);
     
+    navigate("/recipes")
     
   };
+
+
+
+
+
+
 
   return (
     <div className="add-recipe-page">
@@ -108,7 +118,11 @@ function AddRecipe(props) {
           onChange={handleInstructions}
         />
 
-        <button type="submit">Add Recipe ♡</button>
+        <button className="home-btn" type="submit">Add Recipe ♡</button>
+        
+                
+
+         
       </form>
     </div>
   );

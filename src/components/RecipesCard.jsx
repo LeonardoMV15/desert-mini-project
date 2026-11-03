@@ -41,7 +41,7 @@ function RecipeCard(props) {
 
         <button
           className="recipe-remove"
-          onClick={() => props.handleRemove(props.index)}
+          onClick={() => props.handleRemove(props.recipe.id)}
         >
           Remove Recipe
         </button>

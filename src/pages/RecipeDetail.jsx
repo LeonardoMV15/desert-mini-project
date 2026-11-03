@@ -15,19 +15,26 @@ function RecipeDetail() {
   }
 
   return (
-    <article className="recipe-detail">
-      <h1>{foundRecipe.name}</h1>
+  <article className="recipe-detail">
 
-      <img
-        className="recipe-detail__image"
-        src={foundRecipe.image}
-        alt={foundRecipe.name}
-      />
+    <h1>{foundRecipe.name}</h1>
 
-      <div className="recipe-detail__metadata">
-        <p>Category: {foundRecipe.category}</p>
-        <p>Difficulty: {foundRecipe.difficulty}</p>
-        <p>Preparation time: {foundRecipe.prepTime} minutes</p>
+    <div className="recipe-detail__top">
+
+      <div className="recipe-detail__left">
+
+        <img
+          className="recipe-detail__image"
+          src={foundRecipe.image}
+          alt={foundRecipe.name}
+        />
+
+        <div className="recipe-detail__metadata">
+          <p>Category: {foundRecipe.category}</p>
+          <p>Difficulty: {foundRecipe.difficulty}</p>
+          <p>Preparation time: {foundRecipe.prepTime} minutes</p>
+        </div>
+
       </div>
 
       <section className="recipe-detail__section">
@@ -40,21 +47,24 @@ function RecipeDetail() {
         </ul>
       </section>
 
-      <section className="recipe-detail__section">
-        <h2>Instructions</h2>
+    </div>
 
-        <ol>
-          {foundRecipe.instructions.map((step, index) => (
-            <li key={index}>{step}</li>
-          ))}
-        </ol>
-      </section>
+    <section className="recipe-detail__instructions">
+      <h2>Instructions</h2>
 
-      <Link className="recipe-detail__back" to="/recipes">
-        Back to Recipes
-      </Link>
-    </article>
-  );
+      <ol>
+        {foundRecipe.instructions.map((step, index) => (
+          <li key={index}>{step}</li>
+        ))}
+      </ol>
+    </section>
+
+    <Link className="recipe-detail__back" to="/recipes">
+      ← Back to Recipes
+    </Link>
+
+  </article>
+);
 }
 
 export default RecipeDetail;

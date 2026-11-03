@@ -4,7 +4,7 @@ function AboutPage() {
   return (
     <div className="about-page">
 
-      <h1>About Sweet Book ♡</h1>
+      <h1>About Sweet Book </h1>
 
       <div className="about-content">
 
@@ -41,7 +41,7 @@ function AboutPage() {
 
       <div className="about-team">
 
-        <h2>Meet the Team ♡</h2>
+        <h2>Meet the Team </h2>
 
         <p>We are two students learning web development at Ironhack!</p>
 

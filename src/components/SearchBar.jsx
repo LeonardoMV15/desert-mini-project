@@ -27,17 +27,17 @@ function SearchBar({
 
 
   return (
-    <div className="search-bar container">
-      <h2>Search Bar</h2>
+  <div className="search-bar">
+    <span className="search-icon">⌕</span>
 
-      <input
-        type="text"
-        value={searchValue}
-        onChange={handleSearch}
-        placeholder="Search recipes..."
-      />
-    </div>
-  );
+    <input
+      type="text"
+      value={searchValue}
+      onChange={handleSearch}
+      placeholder="Search your favorite dessert..."
+    />
+  </div>
+);
 }
 
 export default SearchBar;

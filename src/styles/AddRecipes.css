@@ -1,0 +1,154 @@
+
+
+.add-recipe-page {
+  max-width: 1050px;
+  margin: 0 auto;
+  padding: 10px 20px 30px;
+  color: #6b2637;
+}
+
+/* HEADER */
+
+.add-recipe-header {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.add-recipe-header h1 {
+  font-family: "Anton", sans-serif;
+  font-size: 48px;
+  margin: 0 0 10px;
+  color: #6b2637;
+}
+
+.add-recipe-header p {
+  font-size: 15px;
+  color: #8a5964;
+  margin: 0;
+  max-width: none;
+}
+
+/* FORMULARIO */
+
+.recipe-form {
+  background-color: #fffdf0;
+  border: 1px solid #e7d6c4;
+  border-radius: 16px;
+
+  padding: 25px 30px;
+
+  box-shadow: 0 5px 20px rgba(107, 38, 55, 0.05);
+}
+
+/* TITULOS */
+
+.recipe-form h2 {
+  font-family: "Anton", sans-serif;
+  font-size: 22px;
+  margin: 0 0 18px;
+  color: #6b2637;
+}
+
+.recipe-form .bake-title {
+  margin-top: 25px;
+}
+
+/* GRID */
+
+.recipe-form-grid {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: 18px;
+}
+
+/* Primera fila: dos campos */
+
+.recipe-form-grid > .form-group:nth-child(1),
+.recipe-form-grid > .form-group:nth-child(2) {
+  grid-column: span 3;
+}
+
+/* Segunda fila: tres campos */
+
+.recipe-form-grid > .form-group:nth-child(3),
+.recipe-form-grid > .form-group:nth-child(4),
+.recipe-form-grid > .form-group:nth-child(5) {
+  grid-column: span 2;
+}
+
+/* GRUPOS */
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.form-group label {
+  font-size: 13px;
+  font-weight: 600;
+  color: #6b2637;
+}
+
+/* INPUTS */
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  box-sizing: border-box;
+
+  padding: 10px 12px;
+
+  background-color: #ffffff;
+  border: 1px solid #d9c4c9;
+  border-radius: 8px;
+
+  color: #6b2637;
+  font-family: inherit;
+  font-size: 13px;
+
+  outline: none;
+}
+
+/* FOCUS */
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+  border-color: #6b2637;
+  box-shadow: 0 0 0 2px rgba(107, 38, 55, 0.1);
+}
+
+/* TEXTAREAS */
+
+.form-group textarea {
+  resize: vertical;
+  min-height: 95px;
+}
+
+/* BOTÓN */
+
+.form-actions {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.form-actions .home-btn {
+  padding: 12px 35px;
+
+  background-color: #6b2637;
+  color: #fffdf0;
+
+  border: none;
+  border-radius: 8px;
+
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.form-actions .home-btn:hover {
+  background-color: #8a354b;
+}
